@@ -34,3 +34,37 @@ different version of the same code or if we want to experiment with a different
 feature without changing the base code, we can create a new branch. Later, if we 
 add features that we want to permanently affect the master branch, we can merge it
 in.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Man.. they pretty much make it bearable. My whole problem with trying to understand
+Git on my own was I couldn't visualize what a commit was, what a repository was,
+etc. But by seeing these things drawn out into boxes with arrows and what not, it
+makes it something I can understand.
+
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+Merging two branches essentially includes all changes made on either file and combines
+them into a single one. I don't fully understand it yet, but I recognize that there
+is a process of certain lines needing to be reconciled with one another before a
+merge is committed. I'll reiterate that having previous versions available to reference
+gives a lot of security to move forward with a project.
+
+I don't really know how to answer the second question except that it makes a lot
+of sense. One branch is different from another branch, but once you merge them
+together, it's as if all the steps completed should be reconciled as history of
+the main branch. Yet prior to the merging, the commits themselves should be 
+accessible on the previously separate branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+I'd say the pro is obvious that you will probably ultimately save a lot of time
+by letting Git determine where conflicts are so you can quickly resolve the code.
+However, it might be a disadvantage when Git doesn't catch all the little nuances that
+make the program different, as we saw in the example of 3 pieces of asteroid vs. 2.
+
+
