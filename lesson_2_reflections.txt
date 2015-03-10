@@ -9,3 +9,9 @@ useful because it will give me a single place to track all of the file
 versions of a particular project. However, I still have a lot to learn
 about how to actively use it.
 
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area is just what it says. It seems to give us an opportunity to
+double check what we are planning to commit before we do in between commits.
+
