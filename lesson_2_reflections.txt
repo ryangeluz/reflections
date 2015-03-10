@@ -9,9 +9,28 @@ useful because it will give me a single place to track all of the file
 versions of a particular project. However, I still have a lot to learn
 about how to actively use it.
 
+
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 
 The staging area is just what it says. It seems to give us an opportunity to
 double check what we are planning to commit before we do in between commits.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Hmm. I suppose my answer isn't too different than the last answer, which makes me
+think I might be missing something. However, one idea is that we can check to see
+that the file we intended to modify is modified. If the staging area has too many
+modified files in it, it might be that we didn't commit soon enough and need to reset
+one or more of the items.
+
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Pretty straightforward — whenever branching out matters. If we're going to create a
+different version of the same code or if we want to experiment with a different
+feature without changing the base code, we can create a new branch. Later, if we 
+add features that we want to permanently affect the master branch, we can merge it
+in.
