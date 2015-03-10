@@ -1,0 +1,11 @@
+
+
+March 10, 2015
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates the folder for the versions to start syncing. A repository is
+useful because it will give me a single place to track all of the file
+versions of a particular project. However, I still have a lot to learn
+about how to actively use it.
+
