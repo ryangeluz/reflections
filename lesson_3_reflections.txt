@@ -55,3 +55,18 @@ local changes will be when it comes to merging the two together. If others have
 been working remotely without consistently fetching or pulling the state to
 our local device, it's possible that the two projects would diverge vastly —
 which isn't exactly unfixable. It would just be more inefficient, I imagine.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+We could collaborate by saving a series of different versions — say cake-recipe-1.4
+to cake-recipe-1.5. We could painstakingly share each of our files with one another
+and as long as we set up a system of communication and organization, we'd be able
+to accomplish similar results. However, it would be much harder and more time
+consuming and prone to error. I imagine there are other types of version control
+protocols that have been successful in solving this problem to an extent. But
+definitely, if we're talking no version control program, we'd have to develop an
+elaborate system of workflow protocol that every new employee in an organization
+would have to be trained on, and because it is different from company to company,
+the cost of training and retraining new team members would be higher.
