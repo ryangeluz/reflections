@@ -1,0 +1,13 @@
+Lesson 3 Reflections
+
+March 10, 2015
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+Hmm. Well I suppose the first obvious answer is that having a backup copy on a remote
+database is useful to have in case my computer takes a dive on me. I also think it will
+be easier to share with others via the web link, so if I'm looking for feedback on an
+open source project, having it up on GitHub is the way to go. Also, another obvious
+answer just occurred to me. What happens if I'm using somebody else's computer and don't
+have access to my home repository? With a remote repository, I can work virtually from
+any computer with internet access.
