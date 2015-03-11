@@ -11,3 +11,17 @@ open source project, having it up on GitHub is the way to go. Also, another obvi
 answer just occurred to me. What happens if I'm using somebody else's computer and don't
 have access to my home repository? With a remote repository, I can work virtually from
 any computer with internet access.
+
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+That's a good question. I'm not really sure. I guess my first thought is I wouldn't
+always want to pull a commit onto my home repository if I'm working on a different 
+version on my computer, but the reason that doesn't convince me is we can already 
+choose to do that through branching. I'm not sure if pulling requires a new commit
+to be made, so I can definitely agree with the same logic that we use when choosing
+to always manually commit files. I'm sure it's a matter of preference. If we are
+thoughtful about when we commit, I personally don't see why we shouldn't have them
+sync automatically — unless someone else is working on GitHub and it would be akin
+to merging files at the wrong time.
