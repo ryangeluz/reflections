@@ -44,3 +44,14 @@ on a different feature of the code without affecting the master branch. You can
 have two people working on two different features, for example, with the intent
 of merging the files later.
 
+
+March 11, 2015
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+The closer we are to the state of the remote repository, the more accurate our
+local changes will be when it comes to merging the two together. If others have
+been working remotely without consistently fetching or pulling the state to
+our local device, it's possible that the two projects would diverge vastly —
+which isn't exactly unfixable. It would just be more inefficient, I imagine.
