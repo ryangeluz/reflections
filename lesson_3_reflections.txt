@@ -25,3 +25,22 @@ to always manually commit files. I'm sure it's a matter of preference. If we are
 thoughtful about when we commit, I personally don't see why we shouldn't have them
 sync automatically — unless someone else is working on GitHub and it would be akin
 to merging files at the wrong time.
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+Hmm. A fork seems to be a description of a repository listed on GitHub that originated
+from someone else's repository. A clone is a copy of a repository you can import to
+your local directory. A branch is what we already talked about — a way to branch out
+from your master code for a variety of purposes.
+
+A fork, as I mentioned, is best when you want to clone someone else's repository to
+your GitHub account without them being involved in future edits or commits. I'm a bit
+dark on whether or not a cloned repository affects other people's local Git or their
+GitHub accounts, but I would surmise that they would only be involved if they are
+included as a collaborator. I'd say the best example is the one we used, where we
+cloned from GitHub to work on our own computer. A branch is when you want to work
+on a different feature of the code without affecting the master branch. You can
+have two people working on two different features, for example, with the intent
+of merging the files later.
+
